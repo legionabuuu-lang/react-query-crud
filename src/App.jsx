@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Discounts from "./components/Discounts";
 import VideoSection from "./components/VideoSection";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Discounts />
       <VideoSection />
+      <Home />
     </div>
   );
 }
